@@ -1,0 +1,32 @@
+name: IPTV Otomasyonu
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Her 6 saatte bir çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu ekler
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo Kontrol
+        uses: actions/checkout@v3
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Kütüphaneleri Kur
+        run: pip install requests
+
+      - name: Botu Çalıştır
+        run: python bot.py
+
+      - name: Değişiklikleri Kaydet (Push)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add playlist.m3u
+          git commit -m "Playlist güncellendi: $(date)"
+          git push
