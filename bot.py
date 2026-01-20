@@ -1,14 +1,15 @@
 import requests
 import re
-import time
+import os
 
-def get_data():
+def generate_iptv_list():
+    # Tarayıcı gibi görünmek için Header
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Referer': 'https://birazcikspor.com/'
     }
-    
-    channels = [
+
+    channel_list = [
         "androstreamlivebiraz1", "androstreamlivebs1", "androstreamlivebs2", "androstreamlivebs3",
         "androstreamlivebs4", "androstreamlivebs5", "androstreamlivebsm1", "androstreamlivebsm2",
         "androstreamlivess1", "androstreamlivess2", "androstreamlivets", "androstreamlivets1",
@@ -21,41 +22,45 @@ def get_data():
         "androstreamliveexn8"
     ]
 
-    active_domain = "https://birazcikspor44.xyz" # Burayı gerekirse ana siteden çekebiliriz
-    m3u_content = "#EXTM3U\n"
-    found_base_url = None
-
-    print(f"Kaynak aranıyor: {active_domain}")
-
-    # Önce tek bir kanaldan baseurl'yi çekmeye çalışalım (Hepsinde aynıdır)
-    test_url = f"{active_domain}/event.html?id=androstreamlivebiraz1"
     try:
-        res = requests.get(test_url, headers=headers, timeout=10)
-        # JS içindeki baseurls dizisini yakala
-        # Regex: baseurls = [ "URL" ] yapısını arar
-        urls = re.findall(r'https?://[a-zA-Z0-9.-]+\.[a-z]{2,}/checklist/', res.text)
+        # 1. Adım: Aktif siteyi bul
+        print("Ana site kontrol ediliyor...")
+        main_page = requests.get("https://birazcikspor.com", headers=headers, timeout=15).text
+        active_site_match = re.search(r'href="(https?://birazcikspor[^"]+\.xyz)"', main_page)
         
-        if urls:
-            found_base_url = urls[0]
-            print(f"Base URL bulundu: {found_base_url}")
-        else:
-            # Eğer doğrudan HTML'de yoksa, sayfada yüklü olan JS dosyalarını kontrol etmemiz gerekebilir
-            print("Base URL bulunamadı, alternatif metod deneniyor...")
-            # Bazen asıl kod player.js gibi bir dosyadadır.
-    except Exception as e:
-        print(f"Bağlantı hatası: {e}")
+        active_domain = active_site_match.group(1) if active_site_match else "https://birazcikspor44.xyz"
+        print(f"Hedef Site: {active_domain}")
 
-    if found_base_url:
-        for ch in channels:
-            # İstediğin format: baseurl + kanal_id + .m3u8
-            final_link = f"{found_base_url}{ch}.m3u8"
-            m3u_content += f"#EXTINF:-1, {ch}\n{final_link}\n"
+        # 2. Adım: Kaynak koda gir ve baseurls dizisini ayıkla
+        # Herhangi bir kanalın id'si ile sayfaya gidiyoruz
+        target_url = f"{active_domain}/event.html?id=androstreamlivebiraz1"
+        response = requests.get(target_url, headers=headers, timeout=15)
         
+        # Regex ile tırnak içindeki checklist linklerini buluyoruz
+        base_urls = re.findall(r'"(https?://[^"]+/checklist/)"', response.text)
+
+        if not base_urls:
+            print("HATA: Kaynak kodunda baseurl bulunamadı!")
+            return
+
+        # İlk bulunan baseurl'yi alıyoruz
+        final_base = base_urls[0]
+        print(f"Yayın Kaynağı Bulundu: {final_base}")
+
+        # 3. Adım: M3U Dosyasını Oluştur
+        m3u_output = "#EXTM3U\n"
+        for channel in channel_list:
+            # Format: baseurl + kanal_id + .m3u8
+            link = f"{final_base}{channel}.m3u8"
+            m3u_output += f"#EXTINF:-1, {channel}\n{link}\n"
+
         with open("liste.m3u", "w", encoding="utf-8") as f:
-            f.write(m3u_content)
-        print("Liste başarıyla oluşturuldu.")
-    else:
-        print("Kritik Hata: Base URL hiçbir şekilde yakalanamadı!")
+            f.write(m3u_output)
+        
+        print(f"Bitti! 'liste.m3u' dosyasına {len(channel_list)} kanal yazıldı.")
+
+    except Exception as e:
+        print(f"Bir hata oluştu: {e}")
 
 if __name__ == "__main__":
-    get_data()
+    generate_iptv_list()
