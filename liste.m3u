@@ -1,75 +1,186 @@
 #EXTM3U
-#EXTINF:-1, androstreamlivebiraz1
-https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
-#EXTINF:-1, androstreamlivebs1
-https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1, androstreamlivebs2
-https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1, androstreamlivebs3
-https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1, androstreamlivebs4
-https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1, androstreamlivebs5
-https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1, androstreamlivebsm1
-https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8
-#EXTINF:-1, androstreamlivebsm2
-https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8
-#EXTINF:-1, androstreamlivess1
-https://andro.226503.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1, androstreamlivess2
-https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
-#EXTINF:-1, androstreamlivets
-https://andro.226503.xyz/checklist/androstreamlivets.m3u8
-#EXTINF:-1, androstreamlivets1
-https://andro.226503.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1, androstreamlivets2
-https://andro.226503.xyz/checklist/androstreamlivets2.m3u8
-#EXTINF:-1, androstreamlivets3
-https://andro.226503.xyz/checklist/androstreamlivets3.m3u8
-#EXTINF:-1, androstreamlivets4
-https://andro.226503.xyz/checklist/androstreamlivets4.m3u8
-#EXTINF:-1, androstreamlivesm1
-https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8
-#EXTINF:-1, androstreamlivesm2
-https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8
-#EXTINF:-1, androstreamlivees1
-https://andro.226503.xyz/checklist/androstreamlivees1.m3u8
-#EXTINF:-1, androstreamlivees2
-https://andro.226503.xyz/checklist/androstreamlivees2.m3u8
-#EXTINF:-1, androstreamlivetb
-https://andro.226503.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1, androstreamlivetb1
-https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8
-#EXTINF:-1, androstreamlivetb2
-https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8
-#EXTINF:-1, androstreamlivetb3
-https://andro.226503.xyz/checklist/androstreamlivetb3.m3u8
-#EXTINF:-1, androstreamlivetb4
-https://andro.226503.xyz/checklist/androstreamlivetb4.m3u8
-#EXTINF:-1, androstreamlivetb5
-https://andro.226503.xyz/checklist/androstreamlivetb5.m3u8
-#EXTINF:-1, androstreamlivetb6
-https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8
-#EXTINF:-1, androstreamlivetb7
-https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8
-#EXTINF:-1, androstreamlivetb8
-https://andro.226503.xyz/checklist/androstreamlivetb8.m3u8
-#EXTINF:-1, androstreamliveexn
-https://andro.226503.xyz/checklist/androstreamliveexn.m3u8
-#EXTINF:-1, androstreamliveexn1
-https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8
-#EXTINF:-1, androstreamliveexn2
-https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8
-#EXTINF:-1, androstreamliveexn3
-https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8
-#EXTINF:-1, androstreamliveexn4
-https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8
-#EXTINF:-1, androstreamliveexn5
-https://andro.226503.xyz/checklist/androstreamliveexn5.m3u8
-#EXTINF:-1, androstreamliveexn6
-https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8
-#EXTINF:-1, androstreamliveexn7
-https://andro.226503.xyz/checklist/androstreamliveexn7.m3u8
-#EXTINF:-1, androstreamliveexn8
-https://andro.226503.xyz/checklist/androstreamliveexn8.m3u8
+#EXTINF:-1, BIRAZ1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BS1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BS2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebs2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BS3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BS4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BS5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BSM1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebsm1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, BSM2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivebsm2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, SS1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivess1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, SS2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivets.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TS1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivets1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TS2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivets2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TS3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivets3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TS4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivets4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, SM1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivesm1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, SM2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivesm2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivees1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivees2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb5.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb6.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, TB8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamlivetb8.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn2.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn3.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn5.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn6.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
+#EXTINF:-1, EXN8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://birazcikspor44.xyz/
+https://andro.226503.xyz/checklist/androstreamliveexn8.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://birazcikspor44.xyz/
+
