@@ -3,7 +3,6 @@ import re
 import os
 
 def generate_iptv_list():
-    # En stabil Chrome UA
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     
     headers = {
@@ -42,7 +41,6 @@ def generate_iptv_list():
     ]
 
     try:
-        print("Site taranıyor...")
         main_res = requests.get("https://birazcikspor.com", headers=headers, timeout=15)
         active_site_match = re.search(r'href="(https?://birazcikspor[^"]+\.xyz)"', main_res.text)
         active_domain = active_site_match.group(1).rstrip('/') if active_site_match else "https://birazcikspor44.xyz"
@@ -51,25 +49,23 @@ def generate_iptv_list():
         sample_res = requests.get(sample_url, headers=headers, timeout=15).text
         base_urls = re.findall(r'["\'](https?://[^"\']+/checklist/)["\']', sample_res)
         
-        if not base_urls: return
+        if not base_urls:
+            return
+        
         final_base = base_urls[0]
 
         m3u_output = "#EXTM3U\n"
         for cid, cname in channels:
             stream_url = f"{final_base}{cid}.m3u8"
-            
-            # TV versiyonu için basitleştirilmiş ama keskin headerlar
-            m3u_output += f'#EXTINF:-1, {cname}\n'
-            # Referer zorlaması
-            m3u_output += f'#EXTREFFCP:{active_domain}/\n'
-            # Kullanıcı aracısı zorlaması
+            m3u_output += f'#EXTINF:-1 group-title="Birazspor",{cname}\n'
+            m3u_output += f'#EXTVLCOPT:http-referrer={active_domain}/\n'
             m3u_output += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
-            # Link sonuna eklenen standart pipe formatı
-            m3u_output += f'{stream_url}|User-Agent={user_agent}&Referer={active_domain}/\n\n'
+            m3u_output += f'{stream_url}\n\n'
 
         with open("liste.m3u", "w", encoding="utf-8") as f:
             f.write(m3u_output)
-        print(f"Başarılı! {len(channels)} kanal eklendi.")
+        
+        print(f"Liste oluşturuldu: {len(channels)} kanal.")
 
     except Exception as e:
         print(f"Hata: {str(e)}")
