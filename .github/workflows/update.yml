@@ -1,32 +1,32 @@
-name: IPTV Liste Guncelle
+name: IPTV Otomatik Guncelleme
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Her 6 saatte bir çalışır
-  workflow_dispatch: # Manuel çalıştırma butonu ekler
+    - cron: "0 */6 * * *" # 6 saatte bir
+  workflow_dispatch: # Manuel çalıştırmak için buton açar
 
 jobs:
-  build:
+  run-bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Repo Kontrol
+      - name: Kodlari Cek
         uses: actions/checkout@v3
 
-      - name: Python Kur
+      - name: Python Hazirla
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.x'
 
-      - name: Kütüphaneleri Yukle
+      - name: Gerekli Paketleri Kur
         run: pip install requests
 
       - name: Botu Calistir
         run: python bot.py
 
-      - name: Degisiklikleri Kaydet
+      - name: Degisiklikleri Commit Et ve Pushla
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add liste.m3u
-          git commit -m "Liste güncellendi: $(date)" || exit 0
+          git commit -m "Update IPTV list: $(date)" || echo "Degisiklik yok."
           git push
