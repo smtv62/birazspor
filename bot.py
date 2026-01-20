@@ -49,4 +49,25 @@ def generate_iptv_list():
         for cid in channel_ids:
             # Kanalın düzgün ismini ID'den türetelim veya "Kanal" ekleyelim
             # Örn: androstreamlivebs1 -> BS 1
-            display_name = cid.replace("androstreamlive", "").upper
+            display_name = cid.replace("androstreamlive", "").upper()
+            
+            # Yayın linki
+            stream_url = f"{final_base}{cid}.m3u8"
+            
+            # Oynatıcılara header bilgisini ileten format
+            # Bazı oynatıcılar | ile bazıları http-user-agent= ile çalışır. En garanti yöntem:
+            m3u_output += f'#EXTINF:-1, {display_name}\n'
+            m3u_output += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+            m3u_output += f'#EXTVLCOPT:http-referrer={active_domain}/\n'
+            m3u_output += f'{stream_url}|User-Agent={user_agent}&Referer={active_domain}/\n\n'
+
+        with open("liste.m3u", "w", encoding="utf-8") as f:
+            f.write(m3u_output)
+        
+        print("Liste güncellendi ve Header bilgileri eklendi.")
+
+    except Exception as e:
+        print(f"Hata: {e}")
+
+if __name__ == "__main__":
+    generate_iptv_list()
