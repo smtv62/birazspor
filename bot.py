@@ -3,7 +3,8 @@ import re
 import os
 
 def generate_iptv_list():
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    # TV versiyonları için daha uyumlu User-Agent
+    user_agent = "IPTVSmarters/3.0 (Android; 10; TV)"
     
     headers = {
         'User-Agent': user_agent,
@@ -94,11 +95,11 @@ def generate_iptv_list():
         for cid, cname in channels:
             stream_url = f"{final_base}{cid}.m3u8"
             
-            # IPTV Oynatıcı parametreleri
-            m3u_output += f'#EXTINF:-1, {cname}\n'
+            # Televizo TV ve ExoPlayer için genişletilmiş header tanımları
+            m3u_output += f'#EXTINF:-1 tvg-name="{cname}", {cname}\n'
+            m3u_output += f'#EXTHTTP:{{"User-Agent":"{user_agent}","Referer":"{active_domain}/"}}\n'
             m3u_output += f'#EXTVLCOPT:http-user-agent={user_agent}\n'
             m3u_output += f'#EXTVLCOPT:http-referrer={active_domain}/\n'
-            # Link sonuna eklenen parametreler çoğu player için kritiktir
             m3u_output += f'{stream_url}|User-Agent={user_agent}&Referer={active_domain}/\n\n'
 
         # 4. Dosyayı Yaz
