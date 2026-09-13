@@ -1,9 +1,10 @@
 name: IPTV Otomatik Guncelleme
 
 on:
+  workflow_dispatch: # Elle çalıştırmak için buton açar
   schedule:
-    - cron: "0 */72 * * *" # 72 saatte bir
-  workflow_dispatch: # Manuel çalıştırmak için buton açar
+    # Her Çarşamba ve Cuma günü TSİ 16:00'da (UTC 13:00) çalışır
+    - cron: '0 13 * * 3,5'
 
 jobs:
   run-bot:
